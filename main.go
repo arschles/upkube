@@ -40,7 +40,7 @@ func main() {
 	if err != nil {
 		log.Fatalf("Error marshalling new yaml (%s)", err)
 	}
-	fmt.Println(string(newYamlBytes))
+	fmt.Println(strings.TrimSpace(string(newYamlBytes)))
 }
 
 func traverseAndSet(path []string, m map[interface{}]interface{}, val interface{}) (map[interface{}]interface{}, error) {
