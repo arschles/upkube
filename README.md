@@ -1,2 +1,3 @@
-# upmanifest
-A command line utility for updating Kubernetes manifests
+# upkube
+
+A command line utility for updating Kubernetes [YAML](http://yaml.org/) manifests.
